@@ -235,3 +235,4 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   custom_dir: docs/home_page_override/
+
