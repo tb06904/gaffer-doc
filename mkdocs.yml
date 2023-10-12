@@ -82,7 +82,7 @@ nav:
         - 'What is JSON?': 'user-guide/gaffer-basics/what-is-json.md'
         - 'What is Python?': 'user-guide/gaffer-basics/what-is-python.md'
         - 'What is Cardinality?': 'user-guide/gaffer-basics/what-is-cardinality.md'
-        #- 'What is Aggregation?': 'user-guide/gaffer-basics/what-is-aggregation.md'
+        - 'What is Aggregation?': 'user-guide/gaffer-basics/what-is-aggregation.md'
       - Available APIs:
         - 'Spring REST': 'user-guide/apis/rest-api.md'
         - 'Python (gafferpy)': 'user-guide/apis/python-api.md'
@@ -105,7 +105,7 @@ nav:
         - 'Using the API': 'development-guide/example-deployment/using-the-api.md'
       - 'Ways of Working': 'development-guide/ways-of-working.md'
       - 'Remote Coding Environments': 'development-guide/remote-coding-environments.md'
-      - 'Extending Gaffer': 'development-guide/extending-gaffer.md'
+      #- 'Extending Gaffer': 'development-guide/extending-gaffer.md'
       - 'Sketches Custom Deserialisation': 'development-guide/rest-api-sketches.md'
       - Project Structure:
         - Components:
