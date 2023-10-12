@@ -9,25 +9,6 @@ on:
 permissions:
   contents: write
 jobs:
-  add-version:
-    runs-on: ubuntu-latest
-    name: Add version tag
-    if: ${{ github.event_name == 'workflow_dispatch' }}
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Configure git
-      run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-
-    - name: Add release tag
-      # Force is used to replace any existing tag for the same version
-      run: git tag -f ${{ github.event.inputs.version }}
-
-    - name: Push tag
-      run: git push -f origin ${{ github.event.inputs.version }}
   deploy:
     runs-on: ubuntu-latest
     steps:
