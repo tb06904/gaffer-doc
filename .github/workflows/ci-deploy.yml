@@ -49,4 +49,3 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git fetch origin gh-pages --depth=1
       - run: mike deploy --push --no-redirect --update-aliases ${{ github.event.inputs.version }} latest
-      - run: mkdocs gh-deploy --force --ignore-version
