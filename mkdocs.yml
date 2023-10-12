@@ -82,7 +82,7 @@ nav:
         - 'What is JSON?': 'user-guide/gaffer-basics/what-is-json.md'
         - 'What is Python?': 'user-guide/gaffer-basics/what-is-python.md'
         - 'What is Cardinality?': 'user-guide/gaffer-basics/what-is-cardinality.md'
-        - 'What is Aggregation?': 'user-guide/gaffer-basics/what-is-aggregation.md'
+        #- 'What is Aggregation?': 'user-guide/gaffer-basics/what-is-aggregation.md'
       - Available APIs:
         - 'Spring REST': 'user-guide/apis/rest-api.md'
         - 'Python (gafferpy)': 'user-guide/apis/python-api.md'
@@ -150,16 +150,16 @@ nav:
         - 'Graph Metadata': 'administration-guide/gaffer-config/graph-metadata.md'
         - 'Schema': 'administration-guide/gaffer-config/schema.md'
         - 'Changing Accumulo Passwords': 'administration-guide/gaffer-config/change-accumulo-passwords.md'
-        - 'Proxy': 'administration-guide/gaffer-config/proxy.md'
-        - 'URL': 'administration-guide/gaffer-config/url.md'
+        #- 'Proxy': 'administration-guide/gaffer-config/proxy.md'
+        #- 'URL': 'administration-guide/gaffer-config/url.md'
       - Aggregation Guide:
         - 'Overview': 'administration-guide/aggregation/overview.md'
         - 'Ingest Example': 'administration-guide/aggregation/ingest-example.md'
       - 'Named Operations': 'administration-guide/named-operations.md'
       - 'Operation Score': 'administration-guide/operation-score.md'
-      - Security:
-        - 'Security Guide': 'administration-guide/security/security-guide.md'
-        - 'User Control': 'administration-guide/security/user-control.md'
+      #- Security:
+      #  - 'Security Guide': 'administration-guide/security/security-guide.md'
+      #  - 'User Control': 'administration-guide/security/user-control.md'
     - Change Notes:
       - 'Changelist':
         - 'V2.0 Changes': 'change-notes/changelist/v2-changes.md'
@@ -171,7 +171,7 @@ nav:
         - 'Accumulo Kerberos': 'change-notes/migrating-from-v1-to-v2/accumulo-kerberos.md'
         - 'Log4j in Gaffer': 'change-notes/migrating-from-v1-to-v2/log4j.md'
     - Reference:
-      - 'Reference Guide': 'reference/intro.md'
+      - 'Introduction': 'reference/intro.md'
       - 'Glossary': 'reference/glossary.md'
       - 'Javadoc': 'reference/javadoc.md'
       - Properties:
